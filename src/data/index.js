@@ -79,7 +79,7 @@ export const qna = [
     id: 13,
     question: "Can we take pictures during the wedding ceremony?",
     answer:
-      "Our ceremony will be unplugged and solemn. Please turn off and keep your phones during the processional and ceremony. You may take photos after we have been pronounced as husband and wife. We have an incredible team of photographers and videographers to capture the moments. We promise to share the photos with you after the wedding. Help us capture the love after. Share your photos using our official hashtag. #jackPATkayJO",
+      "Our ceremony will be unplugged and solemn. Please turn off and keep your phones during the processional and ceremony. You may take photos after we have been pronounced as husband and wife. We have an incredible team of photographers and videographers to capture the moments. We promise to share the photos with you after the wedding. Help us capture the love after. Share your photos using our official hashtag. #nararaPATkayJO",
   },
 ];
 
