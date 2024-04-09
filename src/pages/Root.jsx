@@ -5,6 +5,7 @@ import Entourage from "../components/Entourage";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Location from "../components/Location";
+import Message from "../components/Message";
 import Navbar from "../components/MobileNavbar";
 import OtherDetails from "../components/OtherDetails";
 import QuestionAndAnswer from "../components/QuestionAndAnswer";
@@ -13,6 +14,7 @@ const Root = () => {
   return (
     <>
       <Hero />
+      <Message />
       <Location />
       {/* <Details /> */}
       <Entourage />

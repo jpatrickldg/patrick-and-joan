@@ -2,7 +2,7 @@ const OtherDetails = () => {
   return (
     <section
       id="other-details"
-      className="min-h-screen flex flex-col gap-4 xl:gap-10 items-center justify-center px-4 py-10 xl:px-40"
+      className="min-h-screen flex flex-col gap-4 xl:gap-10 items-center justify-center px-4 py-10 xl:px-40 xl:py-20"
     >
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Other Details
