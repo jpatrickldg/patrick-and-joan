@@ -3,7 +3,7 @@ export const qna = [
     id: 1,
     question: "Where and when will the ceremony take place?",
     answer:
-      "The ceremony will be at San Pedro Calungsod Parish - Sanctuary of Padre Pio and will strictly start at 9:30 am.",
+      "The ceremony will be at Saint Pio of Pietrelcina Parish, formerly known as San Pedro Calungsod Parish - Sanctuary of Padre Pio and will strictly start at 9:30 am.",
   },
   {
     id: 2,
@@ -93,10 +93,6 @@ export const menuItems = [
     path: "#for-you",
   },
   {
-    label: "Location",
-    path: "#location",
-  },
-  {
     label: "Entourage",
     path: "#entourage",
   },
@@ -107,6 +103,14 @@ export const menuItems = [
   {
     label: "Gallery",
     path: "#gallery",
+  },
+  {
+    label: "RSVP",
+    path: "#rsvp",
+  },
+  {
+    label: "Location",
+    path: "#location",
   },
   {
     label: "Q + A",

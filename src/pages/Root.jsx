@@ -9,17 +9,18 @@ import Message from "../components/Message";
 import Navbar from "../components/MobileNavbar";
 import OtherDetails from "../components/OtherDetails";
 import QuestionAndAnswer from "../components/QuestionAndAnswer";
+import Rsvp from "../components/Rsvp";
 
 const Root = () => {
   return (
     <>
       <Hero />
       <Message />
-      <Location />
-      {/* <Details /> */}
       <Entourage />
       <OtherDetails />
       <Gallery />
+      <Location />
+      <Rsvp />
       <QuestionAndAnswer />
       <End />
     </>

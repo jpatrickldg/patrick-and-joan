@@ -37,9 +37,17 @@ const Location = () => {
             <p className="mt-2 font-bold text-lg">9 AM</p>
           </div>
           <div className="mt-2">
-            <p className="italic">Scan the code below for directions:</p>
-            <div className="max-w-xs mx-auto">
-              <img src={wazeChurch} className="block w-full" />
+            {/* <p className="italic">Scan the code below for directions:</p> */}
+            <div className="max-w-xl mx-auto">
+              {/* <img src={wazeChurch} className="block w-full" /> */}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6598833181265!2d121.14616951107477!3d14.618440976579908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8dd687da045%3A0x9498561f5b04038f!2sSan%20Pedro%20Calungsod%20Parish!5e0!3m2!1sen!2sph!4v1712669748488!5m2!1sen!2sph"
+                width="100%"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
@@ -59,11 +67,19 @@ const Location = () => {
               Philippines
             </p>
           </div>
-          <p className="mt-2 font-bold text-lg">11 AM</p>
+          <p className="mt-2 font-bold text-lg">11 AM onwards</p>
           <div className="mt-2">
-            <p className="italic">Scan the code below for directions:</p>
-            <div className="max-w-xs mx-auto">
-              <img src={wazeReception} className="block w-full" />
+            {/* <p className="italic">Scan the code below for directions:</p> */}
+            <div className="max-w-xl mx-auto">
+              {/* <img src={wazeReception} className="block w-full" /> */}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.3185477037027!2d121.16860041107431!3d14.580915777498682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c16997b022b7%3A0x9468e114e19b326c!2sLe%20Sabine%20Events%20Place%20at%20C%26B%20Antipolo!5e0!3m2!1sen!2sph!4v1712669941681!5m2!1sen!2sph"
+                width="100%"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
