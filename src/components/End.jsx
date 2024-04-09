@@ -5,7 +5,7 @@ const End = () => {
   return (
     <section id="hero" className="hero-section relative min-h-screen w-full">
       <div
-        className="min-h-screen bg-cover bg-no-repeat bg-[left_-22rem_top] xl:bg-top flex flex-col"
+        className="min-h-screen bg-cover bg-no-repeat bg-[left_-18rem_top] xl:bg-top flex flex-col"
         style={{
           backgroundImage: `url(${heroImage})`,
         }}
