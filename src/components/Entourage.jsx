@@ -87,7 +87,7 @@ const Entourage = () => {
           </h4>
           <div className="flex gap-4 xl:gap-10 w-full justify-center mt-2">
             <div className="text-right flex-1">
-              <h5 className="font-semibold font-libre text-xs">
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
                 Parents of the Groom
               </h5>
               <div>
@@ -99,7 +99,7 @@ const Entourage = () => {
               </div>
             </div>
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
                 Parents of the Bride
               </h5>
               <div>
@@ -110,7 +110,7 @@ const Entourage = () => {
           </div>
         </div>
         <div className="down-up flex flex-col items-center justify-center mt-4 xl:mt-8">
-          <h5 className="font-semibold font-libre text-xs">
+          <h5 className="font-semibold font-libre text-xs xl:text-lg">
             Principal Sponsors
           </h5>
           {principalSponsors.map((sponsor, index) => (
@@ -122,13 +122,17 @@ const Entourage = () => {
         </div>
         <div className="down-up flex gap-4 xl:gap-10 justify-center mt-4 xl:mt-8">
           <div className="text-right flex-1">
-            <h5 className="font-semibold font-libre text-xs">Best Man</h5>
+            <h5 className="font-semibold font-libre text-xs xl:text-lg">
+              Best Man
+            </h5>
             <div>
               <p>Mr. Raymond Gallos</p>
             </div>
           </div>
           <div className="flex-1">
-            <h5 className="font-semibold font-libre text-xs">Maid of Honor</h5>
+            <h5 className="font-semibold font-libre text-xs xl:text-lg">
+              Maid of Honor
+            </h5>
             <div>
               <p>Ms. Thyrza Kay Paguio</p>
             </div>
@@ -136,7 +140,9 @@ const Entourage = () => {
         </div>
         <div className="down-up flex gap-4 xl:gap-10 justify-center mt-4 xl:mt-8">
           <div className="text-right flex-1">
-            <h5 className="font-semibold font-libre text-xs">Groomsmen</h5>
+            <h5 className="font-semibold font-libre text-xs xl:text-lg">
+              Groomsmen
+            </h5>
             <div>
               {groomsmenBridesmaids.map((groomsman) => (
                 <p key={groomsman.male}>{groomsman.male}</p>
@@ -144,7 +150,9 @@ const Entourage = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h5 className="font-semibold font-libre text-xs">Bridesmaids</h5>
+            <h5 className="font-semibold font-libre text-xs xl:text-lg">
+              Bridesmaids
+            </h5>
             <div>
               {groomsmenBridesmaids.map((bridesmaid) => (
                 <p key={bridesmaid.female}>{bridesmaid.female}</p>
@@ -158,7 +166,7 @@ const Entourage = () => {
           </h5>
           <div className="text-center flex flex-col xl:flex-row gap-2 mt-2 w-full xl:px-96">
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
                 Candle Sponsors
               </h5>
               <div>
@@ -167,7 +175,7 @@ const Entourage = () => {
               </div>
             </div>
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
                 Veil Sponsors
               </h5>
               <div>
@@ -176,7 +184,7 @@ const Entourage = () => {
               </div>
             </div>
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
                 Cord Sponsors
               </h5>
               <div>
@@ -192,19 +200,25 @@ const Entourage = () => {
           </h5>
           <div className="text-center flex flex-col xl:flex-row gap-2 mt-2 w-full xl:px-96">
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">Ring Bearer</h5>
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
+                Ring Bearer
+              </h5>
               <div>
                 <p>Jin Kenzo Jose</p>
               </div>
             </div>
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">Bible Bearer</h5>
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
+                Bible Bearer
+              </h5>
               <div>
                 <p>Brent Rhoven Nagrampa</p>
               </div>
             </div>
             <div className="flex-1">
-              <h5 className="font-semibold font-libre text-xs">Coin Bearer</h5>
+              <h5 className="font-semibold font-libre text-xs xl:text-lg">
+                Coin Bearer
+              </h5>
               <div>
                 <p>Israel Kristoff Sakay</p>
               </div>
@@ -212,7 +226,9 @@ const Entourage = () => {
           </div>
         </div>
         <div className="down-up text-center mt-2">
-          <h5 className="font-semibold font-libre text-xs">Flower Girls</h5>
+          <h5 className="font-semibold font-libre text-xs xl:text-lg">
+            Flower Girls
+          </h5>
           <div className="text-center">
             <p>Cassandra Rane Manalili</p>
             <p>Maxine Luna Panopio</p>
