@@ -1,14 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Root from "./pages/Root.js";
+import Root from "./pages/Root.jsx";
+import QuestionAndAnswer from "./pages/QuestionAndAnswer.jsx";
+import Main from "./layouts/Main.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Root />,
+    element: <Main />,
+    children: [
+      {
+        path: "/",
+        element: <Root />,
+      },
+      {
+        path: "/question-and-answer",
+        element: <QuestionAndAnswer />,
+      },
+    ],
   },
 ]);
 
