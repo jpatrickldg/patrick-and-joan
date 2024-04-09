@@ -7,7 +7,7 @@ const OtherDetails = () => {
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Other Details
       </h2>
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-8 xl:gap-16">
         <div className="down-up text-center max-w-xl mx-auto">
           <h3 className="font-libre font-bold text-xl xl:text-2xl">Attire</h3>
           <div className="space-y-1 mt-4">

@@ -7,7 +7,7 @@ const QuestionAndAnswer = () => {
       className="p-4 xl:px-40 xl:py-10 min-h-screen bg-motif-grey text-brown flex flex-col gap-4 items-center justify-center"
     >
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
-        Question and Answer
+        Q + A
       </h2>
       <div className="flex-1 flex flex-wrap gap-4 mt-4">
         {qna.map((q) => (

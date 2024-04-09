@@ -91,6 +91,9 @@ const Navbar = () => {
             }`}
           />
         </button>
+        <h1 className="font-white font-bold font-libre text-lg text-white">
+          P&J
+        </h1>
         <div
           className={`absolute inset-0 h-screen bg-motif-green flex flex-col gap-10 items-center justify-center transition-all ease-in duration-150 ${
             open ? "translate-x-0" : "-translate-x-[100%]"

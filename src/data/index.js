@@ -105,7 +105,7 @@ export const menuItems = [
     path: "#gallery",
   },
   {
-    label: "Q&A",
+    label: "Q + A",
     path: "#q-n-a",
   },
 ];

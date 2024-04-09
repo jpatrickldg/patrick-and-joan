@@ -1,6 +1,6 @@
 import { qna } from "../data";
 import bgImage from "../assets/images/Edited-19.jpg";
-
+import { CgCross } from "react-icons/cg";
 const principalSponsors = [
   {
     male: "Mr. Danilo Belmonte",
@@ -90,7 +90,8 @@ const Entourage = () => {
               <h5 className="font-semibold font-libre">Parents of the Groom</h5>
               <div>
                 <p>
-                  Mr. Amado M. de Guzman <span>✝</span>
+                  Mr. Amado M. de Guzman
+                  <CgCross className="inline mb-1" />
                 </p>
                 <p>Mrs. Breatriz L. de Guzman</p>
               </div>
