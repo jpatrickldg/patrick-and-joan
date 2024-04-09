@@ -20,8 +20,8 @@ const Root = () => {
       <OtherDetails />
       <Gallery />
       <Location />
-      <Rsvp />
       <QuestionAndAnswer />
+      <Rsvp />
       <End />
     </>
   );

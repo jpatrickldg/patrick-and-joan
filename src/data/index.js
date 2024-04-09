@@ -105,15 +105,15 @@ export const menuItems = [
     path: "#gallery",
   },
   {
-    label: "RSVP",
-    path: "#rsvp",
-  },
-  {
     label: "Location",
     path: "#location",
   },
   {
     label: "Q + A",
     path: "#q-n-a",
+  },
+  {
+    label: "RSVP",
+    path: "#rsvp",
   },
 ];
