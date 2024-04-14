@@ -34,7 +34,7 @@ export const qna = [
     id: 6,
     question: "When is the appropriate time to leave?",
     answer:
-      "We aim to end the program around 2:00 PM, and we would appreciate it if you could stay until then. If you must leave early, we'd love to thank you and say goodbye before you go—perhaps not while they're playing the Same Day Edit Video, though.",
+      "We aim to end the program around 3:00 PM, and we would appreciate it if you could stay until then. If you must leave early, we'd love to thank you and say goodbye before you go—perhaps not while they're playing the Same Day Edit Video, though.",
   },
   {
     id: 7,
