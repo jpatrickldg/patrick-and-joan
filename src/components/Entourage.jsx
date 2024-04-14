@@ -71,7 +71,7 @@ const Entourage = () => {
   return (
     <section
       id="entourage"
-      className="px-4 py-10 xl:px-40 xl:py-24 min-h-screen bg-motif-grey text-[10px] xl:text-base text-brown flex flex-col bg-cover bg-center bg-no-repeat"
+      className="px-4 py-10 xl:px-40 xl:py-24 min-h-screen text-[10px] xl:text-base text-brown flex flex-col bg-cover bg-center bg-no-repeat"
       // style={{
       //   backgroundImage: `url(${bgImage})`,
       // }}

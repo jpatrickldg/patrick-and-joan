@@ -12,7 +12,7 @@ const QuestionAndAnswer = () => {
   return (
     <section
       id="q-n-a"
-      className="px-4 py-10 xl:px-40 xl:py-24 min-h-screen bg-motif-grey text-brown flex flex-col gap-4 xl:gap-10 items-center justify-center"
+      className="px-4 py-10 xl:px-40 xl:py-24 min-h-screen text-brown flex flex-col gap-4 xl:gap-10 items-center justify-center"
     >
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Q + A
