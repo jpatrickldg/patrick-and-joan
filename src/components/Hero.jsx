@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="absolute inset-0 h-full flex flex-col items-center text-white">
         {/* NAVBAR */}
         {/* <Navbar /> */}
-        <div className="flex-1 text-base flex flex-col items-center xl:justify-center mt-20 xl:mt-0 gap-4 xl:text-xl">
+        <div className="flex-1 text-base flex flex-col items-center xl:justify-center mt-20 md:mt-40 xl:mt-0 gap-4 xl:text-xl">
           <p>We are getting married</p>
           <h1 className="text-4xl xl:text-8xl font-bold font-libre">
             Patrick & Joan

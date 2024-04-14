@@ -34,13 +34,12 @@ import image32 from "../assets/images/Edited-32.jpg";
 
 const images = [
   image30,
-  image3,
   image4,
-  image5,
-  image6,
+  image31,
   image8,
   image9,
   image10,
+  image26,
   image12,
   image13,
   image14,
@@ -51,15 +50,16 @@ const images = [
   image19,
   image20,
   image21,
+  image5,
   image22,
   image23,
   image24,
   image25,
-  image26,
+  image6,
   image27,
   image28,
+  image3,
   image29,
-  image31,
   image32,
 ];
 
@@ -67,7 +67,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="min-h-screen flex flex-col gap-4 xl:gap-10 px-4 py-10 xl:px-40 items-center justify-center"
+      className="min-h-screen flex flex-col gap-4 xl:gap-10 px-4 py-10 xl:px-40 xl:py-24 items-center justify-center"
     >
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Pre-Nup Teaser

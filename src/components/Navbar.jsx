@@ -52,8 +52,12 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <section className="w-full flex justify-center items-center fixed xl:absolute top-0 z-[100]">
-      <div className="hidden xl:flex gap-8 h-20 items-center justify-center">
+    <section className="w-full flex justify-center items-center fixed xl:sticky top-0 z-[100]">
+      <div
+        className={`hidden xl:flex gap-8 h-16 items-center justify-center absolute top-0 transition-all ease-in-out duration-150 w-full ${
+          scrolled ? "bg-motif-green" : "bg-transparent"
+        }`}
+      >
         {menuItems.map((menu, index) => (
           <a
             href={menu.path}

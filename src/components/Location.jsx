@@ -8,7 +8,7 @@ const Location = () => {
   return (
     <section
       id="location"
-      className="min-h-screen flex flex-col justify-center items-center gap-4 xl:gap-10 px-4 py-10 xl:px-40 text-sm xl:text-base"
+      className="min-h-screen flex flex-col justify-center items-center gap-4 xl:gap-10 px-4 py-10 xl:px-40 xl:py-24 text-sm xl:text-base"
     >
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Location

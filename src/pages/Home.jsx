@@ -11,7 +11,7 @@ import OtherDetails from "../components/OtherDetails";
 import QuestionAndAnswer from "../components/QuestionAndAnswer";
 import Rsvp from "../components/Rsvp";
 
-const Root = () => {
+const Home = () => {
   return (
     <>
       <Hero />
@@ -26,4 +26,4 @@ const Root = () => {
     </>
   );
 };
-export default Root;
+export default Home;
