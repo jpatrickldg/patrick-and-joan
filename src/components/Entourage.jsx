@@ -11,10 +11,6 @@ const principalSponsors = [
     female: "Mrs. Maribel Belmonte",
   },
   {
-    male: "Engr. Luisito Esmundo",
-    female: "Mrs. Marietta Esmundo",
-  },
-  {
     male: "Mr. Arnold Felipe",
     female: "Ms. Maria Theresa Paguio",
   },
