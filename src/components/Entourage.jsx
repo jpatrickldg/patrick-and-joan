@@ -51,7 +51,7 @@ const groomsmenBridesmaids = [
   },
   {
     male: "Mr. Kevin Kallos",
-    female: "Ms. Liza Agilando",
+    female: "Ms. Liza Aguilando",
   },
   {
     male: "Mr. Jezreel Paguio",
