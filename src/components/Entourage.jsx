@@ -19,7 +19,7 @@ const principalSponsors = [
     female: "Mrs. Cherry Ganac",
   },
   {
-    male: "Mr. Jeremy Garcia",
+    male: "Mr. Jerryme Garcia",
     female: "Mrs. Maria Nancy Garcia",
   },
   {
