@@ -1,9 +1,15 @@
+import attire from "../assets/images/Attire.png";
+
 const OtherDetails = () => {
   return (
     <section
       id="other-details"
-      className="min-h-screen flex flex-col gap-4 xl:gap-10 items-center justify-center px-4 py-10 xl:px-40 xl:py-24"
+      className="relative min-h-screen flex flex-col gap-4 xl:gap-10 items-center justify-center px-4 py-10 xl:px-40 xl:py-24"
     >
+      {/* IMG CONTAINER */}
+      {/* <div className="absolute h-1/2 right-80">
+        <img src={attire} className="block h-full" />
+      </div> */}
       <h2 className="down-up text-3xl xl:text-5xl font-bold font-homemade">
         Other Details
       </h2>
@@ -11,19 +17,31 @@ const OtherDetails = () => {
         <div className="down-up text-center max-w-xl mx-auto">
           <h3 className="font-libre font-bold text-xl xl:text-2xl">Attire</h3>
           <div className="space-y-1 mt-4">
-            <p>At least below the knee elegant dress for the ladies</p>
-            <p>Formal attire for the gentlemen</p>
-            <p>
+            {/* <p>At least below the knee elegant dress for the ladies</p>
+            <p>Formal attire for the gentlemen</p> */}
+            {/* <p>
               We encourage everyone to arrive in their appropriate attire for
               our most awaited day
+            </p> */}
+          </div>
+          <div className="flex gap-1 justify-center mt-8">
+            <div className="bg-[#b8bab7] rounded-full w-10 h-10" />
+            <div className="bg-[#fbc4b1] rounded-full w-10 h-10" />
+            <div className="bg-[#f9b69f] rounded-full w-10 h-10" />
+            <div className="bg-[#e7d3c3] rounded-full w-10 h-10" />
+            <div className="bg-[#afb6aa] rounded-full w-10 h-10" />
+          </div>
+          {/* IMG CONTAINER */}
+          <div className="mt-4 h-60 md:h-72">
+            <img src={attire} className="block h-full mx-auto" />
+          </div>
+          <div className="space-y-1 mt-4">
+            {/* <p>At least below the knee elegant dress for the ladies</p>
+            <p>Formal attire for the gentlemen</p> */}
+            <p>
+              We encourage everyone to arrive in their appropriate attire for
+              our most awaited day.
             </p>
-            <div className="flex gap-1 justify-center">
-              <div className="bg-[#b8bab7] rounded-full w-10 h-10" />
-              <div className="bg-[#fbc4b1] rounded-full w-10 h-10" />
-              <div className="bg-[#f9b69f] rounded-full w-10 h-10" />
-              <div className="bg-[#e7d3c3] rounded-full w-10 h-10" />
-              <div className="bg-[#afb6aa] rounded-full w-10 h-10" />
-            </div>
           </div>
         </div>
         <div className="down-up text-center max-w-xl mx-auto">
